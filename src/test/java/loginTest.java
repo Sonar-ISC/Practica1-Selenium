@@ -14,7 +14,7 @@ public class loginTest {
 
     @BeforeEach
     public void setUp() {
-        String pathDriver = "";
+        String pathDriver = "change to your path\\chromedriver.exe";
         System.setProperty("webdriver.chrome.driver",pathDriver);
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
@@ -23,6 +23,7 @@ public class loginTest {
 
     @Test
     public void testLogin() throws InterruptedException {
+        // Add your steps here
         // Thread.sleep(2000);
 
     }

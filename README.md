@@ -65,7 +65,7 @@ By es una clase que se utiliza para localizar elementos en una página web. By e
 de elementos en una página web.
 
 ```java
-By buttun = By.id("id");
+By button = By.id("id");
 ```
 
 ### WebElement
