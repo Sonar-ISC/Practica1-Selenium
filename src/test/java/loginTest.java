@@ -14,7 +14,7 @@ public class loginTest {
 
     @BeforeEach
     public void setUp() {
-        String pathDriver = "";
+        String pathDriver = "C:\\Users\\Usuario UTP\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe";
         System.setProperty("webdriver.chrome.driver",pathDriver);
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
@@ -24,6 +24,17 @@ public class loginTest {
     @Test
     public void testLogin() throws InterruptedException {
         // Thread.sleep(2000);
+        driver.get("https://www.saucedemo.com/");
+
+        WebElement username= driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[1]/div/div/form/div[1]/input"));
+        username.sendKeys("standard_user");
+
+        WebElement password= driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[1]/div/div/form/div[2]/input"));
+        password.sendKeys("secret_sauce");
+
+        WebElement button_login= driver.findElement(By.xpath("/html/body/div[1]/div/div[2]/div[1]/div/div/form/input"));
+        button_login.submit();
+        Thread.sleep(20000);
 
     }
 
