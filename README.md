@@ -1,17 +1,25 @@
 # Practica 1 Selenium
 
-Este repositorio es para practicar el uso de Selenium WebDriver con Java. Tambien que funcione como plantilla 
-para proyectos futuros.
+Este repositorio es para practicar el uso de Selenium WebDriver con Java. También, que funcione como plantilla para proyectos futuros.
 
-Los ejercicios propuestos son los siguientes:
 
-## Dependencias Gradle
+## Consideraciones
+
+- Para hacer el pull request, pueden iniciar sesión en GitHub con IntelliJ para mayor facilidad.
+- Crean una rama con su nombre
+- Deben descargar el driver correspondiente a su navegador y sistema operativo.
+
+## Tecnologías
 
 - Selenium WebDriver
 - JUnit
+- Gradle
+
 ## Material de apoyo
 
-- [Selenium WebDriver](https://www.selenium.dev/documentation/en/webdriver/)
+- [Manual Pull Request](https://drive.google.com/file/d/1OagidqedQAEj3h_LoacEr7wqJLBv7XER/view?usp=sharing)
+- [Selenium WebDriver Documentación oficial](https://www.selenium.dev/documentation/en/webdriver/)
+- [Selenium WebDriver PDF](https://drive.google.com/file/d/1vXx2OJF-xUjc7_YLAGHXSmEZkAUyExR_/view?usp=sharing)
 - [JUnit](https://junit.org/junit5/docs/current/user-guide/)
 - [Gradle](https://docs.gradle.org/current/userguide/userguide.html)
 
@@ -23,8 +31,11 @@ Ingresar a la página de [SauceDemo](https://www.saucedemo.com/) y realizar un l
 
 ### Ejercicio 2 - Ejercicio propio
 
-Realizar un ejercicio propio que involucre el uso de Selenium WebDriver con Java. De una pagina de su eleción, 
-deben tener en cuenta que el enfoque es "Probar".
+Realiza un ejercicio propio que involucre el uso de Selenium WebDriver con Java. De una página de tu elección, debes tener en cuenta que el enfoque es "probar".
+
+- Crear un caso de prueba
+- Hacer la automatización de la prueba
+- Crear un pull request
 
 ## Requisitos
 
@@ -32,32 +43,18 @@ Para poder ejecutar los ejercicios propuestos, es necesario tener instalado lo s
 
 - Java 8 o superior
 - Gradle
-- Navegador Google Chrome
-- ChromeDriver
+- Un navegador con su respectivo driver
 - IDE de desarrollo (IntelliJ IDEA, Eclipse, NetBeans)
 
 ## Cosas basicas de Selenium
 
-### WebDriver
+### Get
 
-WebDriver es una interfaz que permite la automatización de pruebas en navegadores web. Es una API que permite la
-interacción con navegadores web. WebDriver es una herramienta que permite la automatización de pruebas en navegadores web.
+Get es un método que se utiliza para navegar a una página web. Get es un método que permite la navegación a una página
 
-
-### ChromeDriver
-
-ChromeDriver es un controlador que se utiliza para la automatización de pruebas en navegadores web. ChromeDriver es una
-implementación de WebDriver que permite la automatización de pruebas en Google Chrome.
-
-### JUnit
-
-JUnit es un marco de pruebas unitarias para el lenguaje de programación Java. JUnit es una herramienta que permite la
-creación de pruebas unitarias en Java.
-
-### Gradle
-
-Gradle es una herramienta de automatización de compilación y construcción de proyectos. Gradle es una herramienta que
-permite la automatización de tareas de compilación y construcción de proyectos.
+```
+driver.get("https://www.google.com");
+```
 
 ### By
 

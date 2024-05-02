@@ -14,7 +14,7 @@ public class loginTest {
 
     @BeforeEach
     public void setUp() {
-        String pathDriver = "change to your path\\chromedriver.exe";
+        String pathDriver = "change to your path of driver, remember that is a executable file";
         System.setProperty("webdriver.chrome.driver",pathDriver);
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
