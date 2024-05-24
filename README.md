@@ -85,5 +85,5 @@ element.clear();
 
 ## Autor
 
-- [Sebastian Agudelo - Co-Lider Sonar I.S.C](https://www.linkedin.com/in/sebastian-agudelo-morales-367970241/)
+- [Sebastian Agudelo - Co-Lider Sonar I.S.C](www.linkedin.com/in/sebastianamo)
 
